@@ -46,7 +46,7 @@ class MyHomePage extends StatelessWidget {
                         overflow: TextOverflow.ellipsis,
                       ),
                       subtitle: Text(
-                        "Processor : AMD Ryzen 5 5500U, Memory : 8GB DDR4-3200MHz, Storage : 512GB, SSD M.2 2242 PCIe 3.0×4 NVMe",
+                        "Processor : AMD Ryzen 5 5500U, Memory : 8GB DDR4, Storage : 512GB, SSD M.2 2242 PCIe 3.0×4 NVMe",
                         maxLines: 6,
                         overflow: TextOverflow.ellipsis,
                       )));
