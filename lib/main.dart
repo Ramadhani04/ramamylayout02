@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
       ),
       // A widget which will be started on application startup
-      home: MyHomePage(title: 'Produk Laptop'),
+      home: MyHomePage(title: 'PRODUK LAPTOP'),
     );
   }
 }
@@ -32,21 +32,21 @@ class MyHomePage extends StatelessWidget {
           title: Text(title),
         ),
         body: ListView.builder(
-            itemCount: 3,
+            itemCount: 8,
             itemBuilder: (context, index) {
               return Padding(
                   padding: const EdgeInsets.only(
                     top: 6,
                   ),
                   child: ListTile(
-                      leading: Image.network("https://www.static-src.com/wcsstore/Indraprastha/images/catalog/medium//86/MTA-23080215/asus_asus_expertbook_p1411pcma_bv255t_intel-_celeron-_n4020_4gb_ram_256gbssd_14-hd_win_10__full03_ipwv46qk.jpg"),
+                      leading: Image.network("https://www.softcom.co.id/wp-content/uploads/2021/04/Lenovo-IdeaPad-Slim-5-14ARE05-81YM00EVID-2.jpg"),
                       title: Text(
-                        "Laptop Asus Core i7",
+                        "Laptop LENOVO IDEAPAD 5 ",
                         maxLines: 5,
                         overflow: TextOverflow.ellipsis,
                       ),
                       subtitle: Text(
-                        "Laptop Asus Core i7",
+                        "Processor : AMD Ryzen 5 5500U, Memory : 8GB DDR4, Storage : 512GB, SSD M.2 2242 PCIe 3.0×4 NVMe",
                         maxLines: 6,
                         overflow: TextOverflow.ellipsis,
                       )));
