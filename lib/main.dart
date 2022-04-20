@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
                     top: 6,
                   ),
                   child: ListTile(
-                      leading: Image.network("https://www.softcom.co.id/wp-content/uploads/2021/02/Lenovo-IdeaPad-Slim-5-14ARE05-81YM00EVID-1.jpg"),
+                      leading: Image.network("https://www.softcom.co.id/wp-content/uploads/2021/02/Lenovo-IdeaPad-Slim-5-14ARE05-81YM00EVID-1.jpg, https://www.softcom.co.id/wp-content/uploads/2021/04/Lenovo-IdeaPad-Slim-5-14ARE05-81YM00EVID-2.jpg"),
                       title: Text(
                         "Laptop LENOVO IDEAPAD 5 ",
                         maxLines: 5,
